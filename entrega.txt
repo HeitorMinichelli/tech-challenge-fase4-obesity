@@ -1,0 +1,38 @@
+Tech Challenge - Fase 4 - Data Analytics
+Aluno(a): Heitor Mesquita
+Grupo: <preencher>
+
+==========================================
+LINKS DE ENTREGA
+==========================================
+
+App preditivo (Streamlit):
+<https://...streamlit.app>
+
+Painel analítico (Streamlit):
+<https://...streamlit.app>
+
+Repositório GitHub (código completo):
+<https://github.com/USUARIO/REPO>
+
+Vídeo de apresentação (4-10 min):
+<https://...>
+
+==========================================
+RESUMO DO PROJETO
+==========================================
+- Dataset: Obesity.csv (~2.111 amostras, 16 features, 7 classes)
+- Pipeline: feature engineering (BMI, arredondamento de ordinais) + ColumnTransformer
+  (StandardScaler + OneHotEncoder) + comparação de 3 modelos (LogReg, RandomForest, GradientBoosting)
+- Métrica: acurácia em hold-out 20% e validação cruzada 5-fold
+- Resultado: acurácia > 75% (modelo final selecionado pela maior acurácia média em CV)
+- Deploy: aplicação Streamlit preditiva + dashboard analítico
+
+==========================================
+COMO REPRODUZIR LOCALMENTE
+==========================================
+1. python -m venv .venv && source .venv/bin/activate  (ou .venv\Scripts\activate no Windows)
+2. pip install -r requirements.txt
+3. Executar obesity_ml.ipynb (gera obesity_model.joblib)
+4. streamlit run app.py
+5. streamlit run dashboard.py
