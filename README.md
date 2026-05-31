@@ -34,10 +34,4 @@ pip install -r requirements.txt
    streamlit run dashboard.py
    ```
 
-## Deploy (Streamlit Community Cloud)
 
-1. Suba o repositório no GitHub (incluindo `Obesity.csv` e `obesity_model.joblib`).
-2. Em https://share.streamlit.io conecte o repo e aponte para `app.py` (e/ou `dashboard.py`).
-3. Compartilhe o link público gerado.
-"# tech-challenge-fase4-obesity" 
-"# tech-challenge-fase4-obesity" 
