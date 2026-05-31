@@ -1,22 +1,18 @@
 Tech Challenge - Fase 4 - Data Analytics
 Aluno(a): Heitor Mesquita
-Grupo: <preencher>
 
 ==========================================
 LINKS DE ENTREGA
 ==========================================
 
 App preditivo (Streamlit):
-<https://...streamlit.app>
+<https://tech-challenge-fase4-obesity.streamlit.app/>
 
 Painel analítico (Streamlit):
-<https://...streamlit.app>
+<https://tech-challenge-fase4-dashboard.streamlit.app/>
 
 Repositório GitHub (código completo):
-<https://github.com/USUARIO/REPO>
-
-Vídeo de apresentação (4-10 min):
-<https://...>
+<https://github.com/HeitorMinichelli/tech-challenge-fase4-obesity>
 
 ==========================================
 RESUMO DO PROJETO
